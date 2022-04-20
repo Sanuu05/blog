@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+.App{
+  background-color: #F3F3F3;
+  font-family: 'Architects Daughter', cursive;
+}
+.detail{
+  margin: 0!important;
+  min-height: 100vh;
+}
+.d-block{
+  height: 300px!important;
+}
+/* .lhome{
+  height: 100vh;
+  overflow-x: auto;
+  
+} */
+.lhome1{
+  margin-left: auto;
+}
+::-webkit-scrollbar{
+  width: 6px;
+}
+::-webkit-scrollbar-thumb{
+  background: rgba(128, 128, 128, 0.507);
+  border-radius: 10px;
+}
+.card-text{
+  height: 90px;
+  overflow: hidden;
+}
+.admin{
+  background-color: cornsilk;
+  height: 100vh;
+}
+.form{
+  background-color: white;
+}
+.mod{
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+table, th, td{
+  border: 1px solid rgb(63, 58, 58);
+}
+table, th {
+  
+  background-color: white;
+  box-shadow: 3px 3px 5px -3px black;
+}
+.postimg{
+  width: 100px;
+  height: 100px;
+}
+.modal-content{
+  padding: 10px 5px;
+}
+.postd{
+  text-decoration: none;
+  color: black;
+}
+.postd:hover{
+  color: black;
+}
+.imgspan{
+  font-weight: bold;
+}
+.dtitle{
+  font-size: 30px;
+  font-weight: 700;
+}
+
+
+
+/* bodypost   */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.bodypost .card-body h5{
+  font-family: 'Roboto Slab', serif;
+  font-size:25px;
+  margin: 10px 0;
+  
+
+}
+.bodypost .card-body p{
+  font-family: 'Roboto Slab', serif;
+  font-size:15px;
+  margin: 5px 0;
+  
+
+}
+.bodypost .mainpostbtn{
+  width: 100%;
+  background-color:red;
+  text-align: center;
+}
+.bodypost .postbtn{
+  text-align: center;
+  background-color: #FF653C;
+  outline: none;
+  align-items: center;
+  border:none;
+  padding:5px 10px;
+  margin: 10px 0;
+}
+/* .carousel-item{
+ padding:0 20px
+} */
+.rhome .recentpost{
+  background-color:#fff;
+}
+.rhome .recentnews{
+  display:flex;
+  background-color:#fff;
+  padding:5px 20px;
+}
+.rhome .recentnews .postimg{
+  padding:5px 5px;
+  
+}
+.rhome .recentnews .postimg img{
+  height: 60px;
+  width: 100%;
+}
+.rhome .recentpost{
+  background-color:brown;
+}
+.rhome .rhead h2{
+  font-size:25px;
+  background-color:  #5CB7D7 !important;
+}
+.rhome .rhead{
+  font-family: 'Roboto Slab', serif;
+  background-color:#5CB7D7;
+}
+.detail img{
+  width: 100%;
+}
+.home .rhead1{
+  font-family: 'Roboto Slab', serif;
+  background-color:#5CB7D7;
+  color: #fff;
+}
+
+.home .rhead1 h2{
+  font-size: 25px;
+}
+.home .rhead1 svg{
+  font-size:30px;
+  margin:0px 5px;
+}
+.detail .rhead1{
+  font-family: 'Roboto Slab', serif;
+  background-color:#5CB7D7;
+  color: #fff;
+}
+
+.detail .rhead1 h2{
+  font-size: 25px;
+}
+.detail .rhead1 svg{
+  font-size:30px;
+  margin:0px 5px;
+}
